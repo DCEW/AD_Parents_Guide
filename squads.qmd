@@ -1,0 +1,26 @@
+# Squads
+
+Squads are groups of swimmers at a similar stage of development, who train together throughout the week.
+As swimmers progress through the squads from Flying Fish right up to Performance level, the focus of their training changes, as does the timing and frequency of training sessions (and consequently the training fees also).
+
+Progression up a squad is at the discretion of the coaches, and every swimmer progresses at their own rate.
+Every training session, the coaches are continually assessing the swimmers abilities and ambition, and when they feel they are ready for more, they may offer them a place in the next squad up, occasionally after having them spend a few trial training sessions in with the higher group to see how they cope.
+
+The squads, the number of hours a week they train and the number of swimming sessions per week is shown below.
+Swimmers are expected to be present for all of their sessions every week, except in exceptional circumstances.
+This is to ensure we respect the time volunteered by our coaches, and give each swimmer the best chance of progressing.
+
+```{r}
+library(dplyr)
+library(gt)
+
+squads <- read.csv("squads.csv", check.names = FALSE) |>
+    gt()
+squads
+```
+
+:::{.callout-note}
+The hours of swimming reduces when swimmers reach Marlins, because, from this stage on, they are encouraged to take part in one hour a week of ['land training'](land-training.qmd) in addition to their swim training.
+:::
+
+All swim training takes place at [Willowburn pool](https://www.placesleisure.org/centres/willowburn-sports-and-leisure-centre/) before or after stardard office hours. 

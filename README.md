@@ -1,2 +1,3 @@
-# template-repository
-A template for repositories with standard Strategy Unit files
+# Alnwick Dolphins Members Manual
+This repository hosts the files needed to render the Quarto book.
+

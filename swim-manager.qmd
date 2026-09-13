@@ -1,0 +1,20 @@
+# Swim Manager
+
+![SwimManager Logo](swimmanager_login_logo.png)
+
+Most UK amateur swimming clubs use [Swim Manager](https://swimmanager.co.uk/), which is a software platform for managing their club.
+You will be given an account on Swim Manager when you join the club.
+This is our central information repository for everything we do.
+You can access your account via the mobile app (available on [Apple](https://apps.apple.com/gb/app/swim-manager/id1475109734) and [Android](https://play.google.com/store/apps/details?id=com.SwimApp.net.SwimManager) devices) or through a browser.
+
+The main roles Swim Manager plays are:
+
+- storing information about members; name, age, squad, PB times
+- training schedules
+- managing galas; entries, information, payments, volunteer sign-up
+- collecting club fees
+- buying Alnwick Dolphins branded kit
+- communications with members
+- storing club certifications and policies
+
+If you are having any difficulties with your SwimManager account, please contact the [Club Secretary](secretary@alnwickdolphins.com).

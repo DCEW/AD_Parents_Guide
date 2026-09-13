@@ -1,0 +1,70 @@
+# Training
+
+## What happens at a training session?
+
+Swimmers arrive ready to swim 10 mins before the session is scheduled to start so they can take part in poolside warm ups.
+There is no need to sign in at reception when you arrive, simply head into the changing rooms and get ready, grab your goggles (and swim cap if you have one), have a quick shower then make your way to the pool area where your coaches should be waiting.
+
+Supporters are free to watch the session if they wish from the seating area, but please do not interfere with the coaches instructions.
+
+:::{.callout-important}
+Please note that:
+
+- only swimmers and staff are allowed poolside
+- you may not pass through the reception area unless fully clothed
+- outdoor footwear is not permitted in the changing rooms
+:::
+
+Swimmers in higher squads will bring extra kit with them to the poolside, but don't worry, you don't need everything on day 1!
+
+## What kit do I need?
+
+For all swimmers, you need a well fitting swimming costume and goggles, a swim cap and water bottle.
+Once you've joined the club you will be provided a Dolphins swimming cap and water bottle, but it may take a few weeks to arrive, so feel free to bring your own until then.
+
+Extra kit is needed as you progress through the squads:
+
+From Great White Sharks onwards:
+
+- kickboard
+- fins (flippers)
+- pull buoy
+
+Tiger Sharks and above:
+
+- snorkel 
+- hand paddles 
+
+:::{.callout-important}
+For competitions, you also need to have an Alnwick Dolphins team swim cap, and an Alnwick Dolphins Team T-shirt. These can be purchased through [Swim Manager](swim-manager.qmd),
+:::
+
+## Lane etiquette
+
+The following behavioural rules are designed to ensure everyone leaves a training session feeling positive and respected.
+
+- arrive on time and ready to swim
+- don't get out of the pool during sets
+- don't swim too close to the person in front: If you need to overtake, touch their toes gently but firmly, then at the end of the lane they will allow you to push off first.
+- allow overtaking at lane ends only, if your toes are touched
+- no booing of other swimmers, whether in our team or others
+- pay attention to your coach at all times
+
+## Who are the coaches?
+ 
+Our current coaching squad is as follows:
+
+## Current coaches
+
+```{r}
+library(dplyr)
+library(gt)
+
+dat <- read.csv("https://github.com/DCEW/AD_Volunteer_Manual/blob/main/roles.csv") |>
+    filter(Role == "Coach ") |>
+    select(group, Currently) |>
+    rename("Coach" = Currently,
+    "Squad group" = group) |>
+    gt() 
+dat
+```

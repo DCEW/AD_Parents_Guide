@@ -1,0 +1,56 @@
+project:
+  type: book
+
+book:
+  title: "Alnwick Dolphins"
+  subtitle: "Members Manual"
+  page-footer:
+    right: "[Click here](mailto:competitionsecretary@alnwickdolphins.com) to contact the author"
+  date: last-modified
+  description: "A guide to being or supporting an Alnwick Dolphins Club Swimmer."
+  chapters:
+    - index.qmd
+    - part: Joining the Club
+      chapters:
+        - how_to_join.qmd
+        - swim-manager.qmd
+    - part: Training with us
+      chapters:
+        - training.qmd
+        - squads.qmd
+        - land-training.qmd
+        - safeguarding.qmd
+    - part: Competing
+      chapters:
+        - competitions.qmd
+    - code_of_conduct.qmd
+    - glossary.qmd
+    - contact.qmd
+    
+
+  sidebar:
+    logo: "logo.jpg"
+    collapse-level: 1
+  navbar:
+    right:
+      - icon: facebook
+        href: "https://www.facebook.com/alnwickdolphins/"
+        text: ""
+      - icon: twitter
+        href: "https://x.com/alnwick_asc"
+        text: ""
+
+execute:
+  echo: false
+  message: false
+  warning: false
+
+format:
+  html:
+    code-fold: true
+    theme:
+      - cosmo
+      - brand
+
+
+
