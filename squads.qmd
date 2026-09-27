@@ -20,7 +20,7 @@ squads
 ```
 
 :::{.callout-note}
-The hours of swimming reduces when swimmers reach Marlins, because, from this stage on, they are encouraged to take part in one hour a week of ['land training'](land-training.qmd) in addition to their swim training.
+Note that from Marlins stage onwards swimmers are encouraged to take part in one hour a week of ['land training'](land-training.qmd) in addition to their swim training.
 :::
 
 All swim training takes place at [Willowburn pool](https://www.placesleisure.org/centres/willowburn-sports-and-leisure-centre/) before or after stardard office hours. 

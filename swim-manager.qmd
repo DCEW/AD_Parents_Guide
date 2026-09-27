@@ -17,4 +17,4 @@ The main roles Swim Manager plays are:
 - communications with members
 - storing club certifications and policies
 
-If you are having any difficulties with your SwimManager account, please contact the [Club Secretary](secretary@alnwickdolphins.com).
+If you are having any difficulties with your SwimManager account, please contact the [Club Secretary](mailto:secretary@alnwickdolphins.com).
