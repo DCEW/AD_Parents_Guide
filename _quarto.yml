@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Alnwick Dolphins"
@@ -51,7 +52,9 @@ format:
     theme:
       - cosmo
       - brand
-    embed-resources: true
+    sidebar:
+      logo: "logo.jpg"
+      collapse-level: 1
 
 
 
