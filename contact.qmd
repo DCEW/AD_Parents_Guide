@@ -8,4 +8,4 @@
 
 [Membership Coordinator](mailto:membership@alnwickdolphins.com)
 
-To find out about contributing to the club as a voluneer, read our [Volunteer Manual]().
+To find out about contributing to the club as a voluneer, read our [Volunteer Manual](https://dcew.github.io/AD_Volunteer_Manual/).

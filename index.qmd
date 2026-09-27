@@ -3,7 +3,7 @@ format: html
 ---
 # Welcome to Alnwick Dolphins! {.unnumbered}
 
-This manual is intended to arm you with all the information you need to confidently embark on your Dolphins career, to to support your swimmer to reach their goals.
+This manual is intended to arm you with all the information you need to confidently embark on your Dolphins career, or to support your swimmer to reach their goals.
 
 For more from Alnwick Dolphins, you can check out our [website](https://www.alnwickdolphins.com/).
 

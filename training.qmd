@@ -36,7 +36,7 @@ Tiger Sharks and above:
 - hand paddles 
 
 :::{.callout-important}
-For competitions, you also need to have an Alnwick Dolphins team swim cap, and an Alnwick Dolphins Team T-shirt. These can be purchased through [Swim Manager](swim-manager.qmd),
+For competitions, you also need to have an Alnwick Dolphins team swim cap, and an Alnwick Dolphins Team T-shirt. These can be purchased through [Swim Manager](swim-manager.qmd).
 :::
 
 ## Lane etiquette
@@ -59,8 +59,12 @@ Our current coaching squad is as follows:
 ```{r}
 library(dplyr)
 library(gt)
+library(RCurl)
 
-dat <- read.csv("https://github.com/DCEW/AD_Volunteer_Manual/blob/main/roles.csv") |>
+urlfile <- "https://raw.githubusercontent.com/DCEW/AD_Volunteer_Manual/main/roles.csv"
+
+dat <- read.csv(urlfile, header = TRUE, stringsAsFactors = FALSE) |>
+    as.data.frame() |>
     filter(Role == "Coach ") |>
     select(group, Currently) |>
     rename("Coach" = Currently,

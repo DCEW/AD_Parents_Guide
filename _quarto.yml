@@ -51,6 +51,7 @@ format:
     theme:
       - cosmo
       - brand
+    embed-resources: true
 
 
 
