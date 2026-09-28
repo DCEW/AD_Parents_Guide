@@ -19,7 +19,7 @@ book:
       chapters:
         - training.qmd
         - squads.qmd
-        - land-training.qmd
+        - s_and_c.qmd
         - safeguarding.qmd
     - part: Competing
       chapters:
